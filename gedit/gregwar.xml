@@ -52,7 +52,7 @@
   <!-- Global Settings -->
 
   <style name="text"                        foreground="white" background="black_blue"/>
-  <style name="selection"                   foreground="white" background="dark_blue"/>
+  <style name="selection"                   foreground="white" background="light_blue"/>
   <style name="cursor"                      foreground="white"/>
   <style name="current-line"                background="medium_blue"/>
   <style name="line-numbers"                foreground="light_blue" background="black_blue"/>
