@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <gconf>
 	<entry name="virtual_root" mtime="1282920589" type="string">
-		<stringvalue>file:///home/gregoire/www</stringvalue>
+		<stringvalue>file:///</stringvalue>
 	</entry>
 	<entry name="root" mtime="1282920589" type="string">
 		<stringvalue>file:///</stringvalue>
