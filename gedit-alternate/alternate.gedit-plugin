@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=alternate
+IAge=2
+Name=Alternate line colors
+Description=Alternate color of the lines
+Authors=Gregwar
+Copyright=
+Website=
