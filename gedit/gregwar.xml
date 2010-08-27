@@ -48,6 +48,7 @@
   <color name="bluish_grey"                 value="#777777"/>
   <color name="steelblue3"                  value="#4f94cd"/>
   <color name="purple"                      value="#EF3EFE"/>
+  <color name="cool_red"		    value="#F44D4D"/>
 
   <!-- Global Settings -->
 
@@ -75,7 +76,7 @@
 
   <!-- Constants and Variables-->
   <style name="def:constant"                foreground="faded_yellow"/>
-  <style name="def:string"                  foreground="spring_green"/>
+  <style name="def:string"                  foreground="cool_red"/>
   <style name="def:special-char"            foreground="light_grey"/>
   <style name="def:special-constant"        foreground="nail_polish_pink" bold="true"/>
   <style name="def:number"                  foreground="nail_polish_pink"/>
