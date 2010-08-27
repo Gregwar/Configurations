@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="editor_font" mtime="1282827053" type="string">
-		<stringvalue>Mashq 12</stringvalue>
-	</entry>
-	<entry name="use_default_font" mtime="1282827055" type="bool" value="true"/>
-</gconf>

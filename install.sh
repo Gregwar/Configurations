@@ -7,5 +7,9 @@ echo "Installation de la configuration BASH"
 cp bash/.bashrc ~/.bashrc
 
 echo "Installation de la configuration GEDIT"
-cp "gregwar.xml" ~/.gnome2/gedit/styles/
-cp "gedit-2" ~/.gconf/apps/
+if [ ! -d ~/.gnome2/gedit ]; then
+    mkdir ~/.gnome2/gedit
+fi
+cp -R "gedit" ~/.gnome2/
+
+gconftool --load gedit-2.xml
