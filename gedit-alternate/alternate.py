@@ -46,7 +46,7 @@ class AlternatePy(gedit.Plugin):
 		self._instances[window] = AlternatePyWindowHelper(self, window)
 
 	def deactivate(self, window):
-		self._instances[window].deactivate()
+		self._instances[window].desactivate()
 		del self._instances[window]
 
 	def update_ui(self, window):
