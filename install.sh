@@ -13,3 +13,9 @@ fi
 cp -R "gedit" ~/.gnome2/
 
 gconftool --load gedit-2.xml
+
+echo "Installation de la configuration GNOME-TERMINAL"
+gconftool --load gnome-terminal.xml
+
+echo "Installation de la configuration GNOME-PANEL"
+gconftool --load panel.xml
