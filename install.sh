@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Installation de la configuration VIM"
+echo "> Ne pas oublier d'installer la colorisation"
 cp vim/.vimrc ~/.vimrc
 
 echo "Installation de la configuration BASH"

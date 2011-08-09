@@ -1,6 +1,9 @@
-syn on
-set shiftwidth=4
-set smarttab
+syntax on
+filetype plugin indent on
 set number
 set hlsearch
-filetype indent on
+set expandtab
+set autoindent
+set shiftwidth=4
+set smarttab
+colorscheme darkspectrum
