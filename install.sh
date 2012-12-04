@@ -10,3 +10,4 @@ cp bash/.bashrc ~/.bashrc
 echo "Configuring git"
 git config --global user.name "Gregwar"
 git config --global user.email "g.passault@gmail.com"
+git config --global --add color.ui true
