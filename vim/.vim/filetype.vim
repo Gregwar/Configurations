@@ -1352,6 +1352,8 @@ au BufNewFile,BufRead *.php,*.php\d,*.phtml,*.ctp	setf php
 
 au BufNewFile,BufRead *.twig                    	setf htmljinja
 
+au BufNewFile,BufRead *.proto                    	setf proto
+
 " Pike
 au BufNewFile,BufRead *.pike,*.lpc,*.ulpc,*.pmod setf pike
 
