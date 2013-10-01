@@ -103,6 +103,8 @@ au BufNewFile,BufRead *.tdf			setf ahdl
 " AMPL
 au BufNewFile,BufRead *.run			setf ampl
 
+au BufNewFile,BufRead *.haxe,*.hx		setf haxe
+
 " Ant
 au BufNewFile,BufRead build.xml			setf ant
 
