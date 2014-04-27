@@ -392,6 +392,9 @@ au BufNewFile,BufRead *.tlh			setf cpp
 " Cascading Style Sheets
 au BufNewFile,BufRead *.css			setf css
 
+" OpenSCAD
+au BufNewFile,BufRead *.scad			setf openscad
+
 " Century Term Command Scripts (*.cmd too)
 au BufNewFile,BufRead *.con			setf cterm
 
