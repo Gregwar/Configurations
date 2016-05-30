@@ -1,3 +1,4 @@
+set t_Co=8
 syntax on
 filetype plugin indent on
 set number
