@@ -12,3 +12,11 @@ set viminfo='20,<10000,s10,h
 map <F12> :w<CR>:make<CR>
 set wildmenu
 set wildmode=list:longest
+
+let &titlestring = expand("%:P")
+if &term == "screen"
+  set t_ts=^[k
+  set t_fs=^[\
+endif
+set title
+
